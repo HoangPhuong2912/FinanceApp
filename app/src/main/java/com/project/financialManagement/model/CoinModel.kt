@@ -9,6 +9,5 @@ enum class CoinModel(val id: Int, val value: String) {
     CAD(5, "Canadian Dollar (CAD)"),
     CHF(6, "Swiss Franc (CHF)"),
     CNY(7, "Chinese Yuan (CNY)"),
-    SEK(8, "Swedish Krona (SEK)"),
-    VND(9,"Viet Nam Dong (VND)")
+    VND(8,"Viet Nam Dong (VND)")
 }

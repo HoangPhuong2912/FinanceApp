@@ -9,7 +9,6 @@ import android.content.res.Configuration
 import android.os.Build
 import android.os.Bundle
 import android.widget.ImageView
-import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.RequiresApi
@@ -41,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         val sharedPreferences = SharedPreferencesHelper(this)
-        val currentLanguage = LanguageModel.values().first { it.position == sharedPreferences.getLangPosition() }
+        val currentLanguage = LanguageModel.entries.first { it.position == sharedPreferences.getLangPosition() }
         setLocale(this, currentLanguage.code)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -84,7 +83,7 @@ class MainActivity : AppCompatActivity() {
         val headerView = navView.getHeaderView(0)
         val avatar: ImageView = headerView.findViewById(R.id.avatar)
         avatar.setOnClickListener {
-            var intent = Intent(this, SigninActivity::class.java)
+            val intent = Intent(this, SigninActivity::class.java)
             startActivity(intent)
         }
 
