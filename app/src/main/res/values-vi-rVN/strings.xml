@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quản lý tài chính</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mật Khẩu</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="register_large">ĐĂNG KÝ</string>
+    <string name="signup">Đăng ký</string>
+    <string name="login_large">ĐĂNG NHẬP</string>
+    <string name="login">Đăng nhập</string>
+    <string name="register">Đăng ký</string>
+    <string name="signin">Đăng nhập</string>
+    <string name="surplus">Số dư</string>
+
+    <!-- TODO: menu -->
+    <string name="home">Trang chủ</string>
+    <string name="setting">Cài đặt</string>
+    <string name="statistical">Thống kê</string>
+    <string name="history">Lịch sử</string>
+    <string name="category">Danh mục</string>
+    <string name="schedule">Lịch trình</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="home_title">TRANG CHỦ</string>
+    <string name="setting_title">CÀI ĐẶT</string>
+    <string name="statistical_title">THỐNG KÊ</string>
+    <string name="history_title">LỊCH SỬ</string>
+    <string name="category_title">DANH MỤC</string>
+    <string name="schedule_title">LỊCH TRÌNH</string>
+    <string name="logout_title">ĐĂNG XUẤT</string>
+    <string name="add_transaction_title">THÊM GIAO DỊCH</string>
+    <string name="date_rang_picker_title">BỘ CHỌN NGÀY</string>
+
+    <!-- TODO: add transaction -->
+    <string name="time">Thời gian</string>
+    <string name="target">Số tiền</string>
+    <string name="description">Mô tả</string>
+    <string name="save">LƯU</string>
+    <string name="revenues">Thu nhập</string>
+    <string name="expenses">Chi phí</string>
+    <string name="empty">Chưa có mô tả</string>
+    <string name="select_option">Chọn Tùy Chọn</string>
+    <string name="select_time">Chọn Thời Gian</string>
+    <string name="select_date">Chọn Ngày</string>
+    <string name="select_weekday">Chọn Ngày Trong Tuần</string>
+    <string name="select_month">Chọn Tháng</string>
+    <string name="start_date">Ngày Bắt Đầu</string>
+    <string name="end_date">Ngày Kết Thúc</string>
+
+    <!-- TODO: Home -->
+    <string name="your_status">Trạng Thái Của Bạn</string>
+    <string name="excellent">Xuất Sắc</string>
+    <string name="expenses_during_month">Chi phí trong tháng</string>
+    <string name="your_asset">Số Dư Của Bạn</string>
+    <string name="transactions_this_month">Giao dịch trong tháng này</string>
+
+
+    <!-- TODO: setting -->
+    <string name="account_and_security">Tài khoản và bảo mật</string>
+    <string name="currency">Loại tiền tệ</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="notification">Thông báo</string>
+    <string name="english">Tiếng Anh</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    <string name="limit_title">Cảnh Báo Chi Tiêu Tháng</string>
+    <string name="limit_hint">Nhập số tiền</string>
+    <string name="limit_null">Chưa có</string>
+
+    <!-- TODO: category -->
+    <string name="title">Tiêu đề</string>
+    <string name="icon">Nhãn</string>
+    <string name="delete_category">Xóa Danh Mục</string>
+    <string name="delete_category_confirmation_1">Tất cả giao dịch thuộc danh mục</string>
+    <string name="delete_category_confirmation_2">sẽ bị xóa. Bạn có chắc chắn muốn xóa danh mục này không?</string>
+    <string name="delete">Xóa</string>
+    <string name="add_category">Thêm Danh Mục</string>
+    <string name="edit_category">Sửa Danh Mục</string>
+    <string name="add">Thêm</string>
+    <string name="update">Cập Nhật</string>
+    <string name="view_details">Xem Chi Tiết</string>
+    <string name="edit">Sửa</string>
+
+    <!-- TODO: option -->
+    <string name="ok">Đồng ý</string>
+    <string name="cancel">Hủy</string>
+    <string name="daily">Hằng Ngày</string>
+    <string name="weekly">Hằng Tuần</string>
+    <string name="monthly">Hằng Tháng</string>
+    <string name="yearly">Hằng Năm</string>
+    <string name="until_changed">Cho Đến Khi Được Thay Đổi</string>
+    <string name="please_select_all_fields">Vui lòng chọn tất cả các trường</string>
+    <string name="select_day_of_months">Chọn ngày trong tháng</string>
+    <string name="select_month_of_years">Chọn tháng trong năm</string>
+    <string name="select_weekday_of_weeks">Chọn ngày trong tuần</string>
+</resources>
